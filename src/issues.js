@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Issue from './issue';
+import './issues.css';
+
 
 const QUERY =  "https://api.github.com/search/issues?q=label:HackIllinois2018&sort=comments&order=desc"
 
@@ -27,16 +29,18 @@ class Issues extends Component {
         var issues = []
         if (this.state.issues != null) {
             return (
-                <div className="Issues">
-                    {this.state.issues.map(function(i) {
-                        return <Issue issue={i}/>
-                    })}
+                <div className="issues">
+                    <ul>
+                        {this.state.issues.map(function(i) {
+                            return <Issue issue={i}/>
+                        })}
+                    </ul>
                 </div>
             );
         }
 
         return (
-            <div className="Issues">
+            <div className="issues">
                 "Loading"
             </div>
         );

@@ -9,6 +9,7 @@ class App extends Component {
         return (
             <div className="App">
                 <img src={squiggly_left} className="squirly" alt="logo" />
+                <img src={squiggly_left} className="squirly-two" alt="logo" />
                 <Issues/>
             </div>
         );

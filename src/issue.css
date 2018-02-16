@@ -1,0 +1,38 @@
+.issue {
+    border-width: 0;
+    border-bottom: solid 1px #ed008c;
+    text-decoration: none;
+    list-style-type: none;
+    color: #1c055e;
+    padding-bottom: 10px;
+}
+
+.issue a {
+    text-decoration: none;
+}
+
+.issue a:link {
+    text-decoration: none;
+    color: #1c055e;
+}
+
+.issue a:visited:link {
+    text-decoration: none;
+    color: #1c055e;
+}
+
+.issue h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Montserrat Regular"), local("Montserrat-Regular"), url("https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2") format("woff2");
+    unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2B
+}
+
+.issue p {
+    font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url("https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXiWtFCc.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2B
+}

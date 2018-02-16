@@ -1,13 +1,22 @@
 
 html, body, #app, [data-reactroot] {
-  height: 100vh;
-  background-color:        rgba(204, 217, 252, 0.24);
+  height: 100%;
+  background-color:        rgba(224, 237, 252);
 }
 
 
 .squirly {
     position: absolute;
-    bottom: 50px;
+    bottom: 450px;
     left: 10px;
     height: 200px;
+}
+
+.squirly-two {
+    position: absolute;
+    bottom: -550px;
+    right: 10px;
+    height: 200px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
